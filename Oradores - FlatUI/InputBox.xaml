@@ -1,0 +1,16 @@
+﻿<Window x:Class="Oradores___FlatUI.InputBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Oradores___FlatUI"
+        mc:Ignorable="d"
+        Title="Nome" Height="200" Width="350" ResizeMode="NoResize" WindowStyle="ToolWindow">
+    <Grid Background="#FF2C3E50">
+        <Label x:Name="label" Content="Qual nome da aba?" HorizontalAlignment="Left" Margin="104,21,0,0" VerticalAlignment="Top" Height="37" Width="135" Foreground="White" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="14.667"/>
+        <TextBox x:Name="Nome_Aba" HorizontalAlignment="Left" Height="29" Margin="21,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="303" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="13.333"/>
+        <Button x:Name="Cancel_Button" Content="Cancelar" HorizontalAlignment="Left" Margin="21,114,0,0" VerticalAlignment="Top" Width="117" Height="36" Background="#FF16A085" BorderBrush="#FF16A085" Foreground="White" FontWeight="Bold" FontSize="14.667" IsCancel="True"/>
+        <Button x:Name="OK_Button" Content="OK" HorizontalAlignment="Left" Margin="207,114,0,0" VerticalAlignment="Top" Width="117" Height="36" Background="#FF16A085" BorderBrush="#FF16A085" Foreground="White" FontSize="14.667" FontWeight="Bold" Click="OK_Button_Click" IsDefault="True"/>
+
+    </Grid>
+</Window>
